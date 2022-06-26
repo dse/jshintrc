@@ -1,4 +1,5 @@
 {
+    // relaxing options
     "asi": false,
     "boss": false,
     "debug": false,
