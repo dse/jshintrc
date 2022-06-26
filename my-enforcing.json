@@ -1,4 +1,5 @@
 {
+    // enforcing options
     "bitwise": true,
     "curly": true,
     "eqeqeq": true,
@@ -24,7 +25,7 @@
     "shadow": true,             // true, false or "inner", "outer"
     "singleGroups": false,      // true, false, "global", "implied"
     "strict": "global",
-    "trailingcomma": true,
+    "trailingcomma": false,
     "undef": true,
     "unused": true,             // true, false, "vars", "strict"
     "varstmt": true
