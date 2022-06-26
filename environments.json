@@ -1,4 +1,5 @@
 {
+    // environments
     "browser": false,
     "browserify": false,
     "couch": false,
