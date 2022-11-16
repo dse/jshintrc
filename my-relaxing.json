@@ -4,7 +4,7 @@
     "boss": false,
     "debug": false,
     "elision": false,
-    "eqnull": true,
+    "eqnull": true, // in limited scenarios comparing null with == is ok
     "evil": false,
     "expr": false,
     "funcscope": false,
