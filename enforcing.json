@@ -22,8 +22,8 @@
     "predef": [],
     "regexpu": true,
     "shadow": true,             // true, false or "inner", "outer"
-    "singleGroups": true,       // true, false, "global", "implied"
-    "strict": true,
+    "singleGroups": true,
+    "strict": true,             // true, false, "global", "implied"
     "trailingcomma": true,
     "undef": true,
     "unused": true,             // true, false, "vars", "strict"
