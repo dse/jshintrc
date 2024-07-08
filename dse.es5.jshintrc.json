@@ -1,5 +1,5 @@
 {
-    // Enforcing options
+    // ENFORCING OPTIONS
     "bitwise":          true,
     "curly":            true,
     "eqeqeq":           true,
@@ -7,30 +7,31 @@
     "forin":            true,
     "freeze":           true,
     "futurehostile":    true,
-    "globals":          {},
-    "latedef":          true,
+    // "globals":          {},
+    "latedef":          "nofunc",
     "leanswitch":       true,
-    "maxcomplexity":    null,
-    "maxdepth":         null,
-    "maxerr":           50,
-    "maxparams":        null,
-    "maxstatements":    null,
+    // "maxcomplexity":    null,
+    // "maxdepth":         null,
+    // "maxerr":           50,
+    // "maxlen":           null,
+    // "maxparams":        null,
+    // "maxstatements":    null,
     "noarg":            true,
     "nocomma":          true,
     "nonbsp":           true,
     "nonew":            true,
     "noreturnawait":    true,
-    "predef":           [],
-    "regexpu":          false,  // should be true at some point
+    // "predef":           [],
+    "regexpu":          false,
     "shadow":           "outer",
-    "singleGroups":     false,  // sometimes they make things clearer
+    "singleGroups":     false,
     "strict":           true,
     "trailingcomma":    false,
-    "undef":            "vars",
-    "unused":           true,
+    "undef":            true,
+    "unused":           "vars",
     "varstmt":          false,
 
-    // Relaxing options
+    // RELAXING OPTIONS
     "asi":              false,
     "boss":             false,
     "debug":            false,
@@ -52,11 +53,11 @@
     "validthis":        false,
     "withstmt":         false,
 
-    // Environments
-    "browser":          true,   // often used
+    // ENVIRONMENTS
+    "browser":          false,
     "browserify":       false,
     "couch":            false,
-    "devel":            true,   // often used
+    "devel":            false,
     "dojo":             false,
     "jasmine":          false,
     "jquery":           false,
