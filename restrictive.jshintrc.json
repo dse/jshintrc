@@ -1,26 +1,27 @@
 {
-    // Enforcing options
+    // ENFORCING OPTIONS
     "bitwise":          true,
     "curly":            true,
     "eqeqeq":           true,
-    "esversion":        11,
+    "esversion":        2020,
     "forin":            true,
     "freeze":           true,
     "futurehostile":    true,
-    "globals":          {},
+    // "globals":       {},
     "latedef":          true,
     "leanswitch":       true,
-    "maxcomplexity":    null,
-    "maxdepth":         null,
-    "maxerr":           50,
-    "maxparams":        null,
-    "maxstatements":    null,
+    // "maxcomplexity": null,
+    // "maxdepth":      null,
+    // "maxerr":        50,
+    // "maxlen":        null,
+    // "maxparams":     null,
+    // "maxstatements": null,
     "noarg":            true,
     "nocomma":          true,
     "nonbsp":           true,
     "nonew":            true,
     "noreturnawait":    true,
-    "predef":           [],
+    // "predef":        [],
     "regexpu":          true,
     "shadow":           "outer",
     "singleGroups":     true,
@@ -30,7 +31,7 @@
     "unused":           true,
     "varstmt":          true,
 
-    // Relaxing options
+    // RELAXING OPTIONS
     "asi":              false,
     "boss":             false,
     "debug":            false,
@@ -52,7 +53,7 @@
     "validthis":        false,
     "withstmt":         false,
 
-    // Environments
+    // ENVIRONMENTS
     "browser":          false,
     "browserify":       false,
     "couch":            false,
